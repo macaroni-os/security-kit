@@ -7,7 +7,7 @@ inherit cargo
 DESCRIPTION="Discover CVEs for packages installed by the portage"
 HOMEPAGE="https://github.com/mrl5/vulner"
 SRC_URI="https://github.com/mrl5/vulner/releases/download/v0.7.1/vulner-v0.7.1.tar.gz -> vulner-v0.7.1.tar.gz
-https://direct.funtoo.org/b6/e1/ce/b6e1ce2f4b449e841ff74621b3b2d1be83cadcc48d5a59ae35e15732d9c9fe64e02b03daaa4cb714fc1057cce329a3c5e14ddaad2cb050ebbdef75cfd367f4f2 -> vulner-0.7.1-funtoo-crates-bundle-df28f692372d1f438fd5f208561d70c815e249c7ebd4ee048847751bcc61500c738e8c9ee2d85cb393a06b6d2fb2fa9791e7f58d25cc49b47c83cd7ed170e398.tar.gz"
+https://distfiles.macaronios.org/d1/df/1a/d1df1a78b2f80abf34d29060cd217d0b5375f3b33ecc815c39334fef51bd4968c7a87c698e91572f1a622bc95723c999c1981b665a4689f695451c30a3b44d18 -> vulner-0.7.1-funtoo-crates-bundle-df28f692372d1f438fd5f208561d70c815e249c7ebd4ee048847751bcc61500c738e8c9ee2d85cb393a06b6d2fb2fa9791e7f58d25cc49b47c83cd7ed170e398.tar.gz"
 
 LICENSE="MPL-2.0"
 SLOT="0"
