@@ -7,7 +7,7 @@ inherit bash-completion-r1 cargo
 DESCRIPTION="A command line tool for interacting with Nitrokey devices."
 HOMEPAGE="https://github.com/d-e-s-o/nitrocli"
 SRC_URI="https://github.com/d-e-s-o/nitrocli/tarball/c54a65831453bf334e75438ac22e18e5cde724d7 -> nitrocli-0.4.1-c54a658.tar.gz
-https://distfiles.macaronios.org/7a/ae/53/7aae538d3690071653dc5485aaed6efd258bf8ce4a8f9208f06106d08c310ebcec014b59a7e7a9df7c31ba2ecc7e6d50abff2e37f5ab88f81c781fa0fcdb9dbd -> nitrocli-0.4.1-funtoo-crates-bundle-81e81e494ffc0a8fd33e2a22539679b4d103ca693965c663e725d3e2eeaf5ed6a0cf966ff4945a0d0e388ec44443f1c7ae58ce0001dd7cd2c024ac3c57fbe41e.tar.gz"
+https://distfiles.macaronios.org/93/62/75/9362759d74b38b7a5e7986b69dd2751ead22b075f528d26d4cb0000e1b848b81e16880c43337a05133993961c9336ecdbf7ef2af50a6e9814a7ae2f9bfa5bb6a -> nitrocli-0.4.1-funtoo-crates-bundle-81e81e494ffc0a8fd33e2a22539679b4d103ca693965c663e725d3e2eeaf5ed6a0cf966ff4945a0d0e388ec44443f1c7ae58ce0001dd7cd2c024ac3c57fbe41e.tar.gz"
 
 LICENSE="Apache-2.0 BSD-2 CC0-1.0 GPL-3+ LGPL-3 MIT"
 SLOT="0"
