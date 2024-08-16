@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig virtual/rust dev-util/ninja dev-util/cmake
+DEFINED_PHASES=compile configure install postinst prepare setup test
+DEPEND=dev-libs/json-c:= bzip2? ( app-arch/bzip2 ) clamdtop? ( sys-libs/ncurses:0 ) clamsubmit? ( net-misc/curl ) iconv? ( virtual/libiconv ) milter? ( || ( mail-filter/libmilter mail-mta/sendmail ) ) >=sys-libs/zlib-1.2.2:= sys-devel/libtool || ( dev-libs/libpcre2 >dev-libs/libpcre-6 ) dev-libs/libmspack dev-libs/libltdl dev-libs/openssl:0= dev-libs/tomsfastmath xml? ( dev-libs/libxml2 ) elibc_musl? ( sys-libs/fts-standalone ) test? ( dev-libs/check ) sys-apps/shadow
+DESCRIPTION=Clam Anti-Virus Scanner
+EAPI=7
+HOMEPAGE=https://www.clamav.net/
+IUSE=bzip2 doc clamonacc clamdtop clamsubmit iconv ipv6 libclamav-only milter metadata-analysis-api selinux uclibc unrar test xml
+KEYWORDS=*
+LICENSE=GPL-2
+RDEPEND=dev-libs/json-c:= bzip2? ( app-arch/bzip2 ) clamdtop? ( sys-libs/ncurses:0 ) clamsubmit? ( net-misc/curl ) iconv? ( virtual/libiconv ) milter? ( || ( mail-filter/libmilter mail-mta/sendmail ) ) >=sys-libs/zlib-1.2.2:= sys-devel/libtool || ( dev-libs/libpcre2 >dev-libs/libpcre-6 ) dev-libs/libmspack dev-libs/libltdl dev-libs/openssl:0= dev-libs/tomsfastmath xml? ( dev-libs/libxml2 ) elibc_musl? ( sys-libs/fts-standalone ) selinux? ( sec-policy/selinux-clamav )
+REQUIRED_USE=libclamav-only? ( !clamonacc !clamdtop !clamsubmit !milter !metadata-analysis-api )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://www.clamav.net/downloads/production/clamav-1.4.0.tar.gz -> clamav-1.4.0.tar.gz
+_eclasses_=cmake	ac7cb516f6a288b6a82bc0649ce49878	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	d0939f99dd528dd0c5ec25284877bf5c	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	user	875055ddd565382c728563992ae3abf7	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=5e4a854f8d65555602096eb36c0ad80f
