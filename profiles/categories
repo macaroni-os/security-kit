@@ -2,6 +2,7 @@ app-crypt
 app-misc
 dev-libs
 net-libs
+net-misc
 sys-auth
 sys-libs
 virtual
