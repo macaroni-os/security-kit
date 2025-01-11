@@ -6,4 +6,5 @@ net-misc
 sys-apps
 sys-auth
 sys-libs
+sys-process
 virtual
