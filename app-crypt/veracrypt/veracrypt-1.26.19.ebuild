@@ -7,7 +7,7 @@ inherit desktop flag-o-matic linux-info pax-utils toolchain-funcs wxwidgets xdg-
 
 DESCRIPTION="Disk encryption with strong security based on TrueCrypt"
 HOMEPAGE="https://www.veracrypt.fr/en/Home.html"
-SRC_URI="https://github.com/veracrypt/VeraCrypt/tarball/865bddb3ac37b6871600c96e62c708ef363201d8 -> VeraCrypt-1.26.15-865bddb.tar.gz"
+SRC_URI="https://github.com/veracrypt/VeraCrypt/tarball/de1ac782304c4fbfb6f8b8d6b1b354e658ad0e24 -> VeraCrypt-1.26.19-de1ac78.tar.gz"
 
 # The modules not linked against in Linux include (but not limited to):
 #   libzip, chacha-xmm, chacha256, chachaRng, rdrand, t1ha2
