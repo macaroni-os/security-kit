@@ -1,10 +1,13 @@
+app-admin
+app-antivirus
 app-crypt
-app-misc
+app-forensics
 dev-libs
+mail-filter
 net-libs
-net-misc
+net-wireless
+sec-policy
 sys-apps
-sys-auth
 sys-libs
 sys-process
 virtual
