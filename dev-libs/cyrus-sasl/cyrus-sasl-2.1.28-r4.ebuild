@@ -18,7 +18,7 @@ REQUIRED_USE="ldapdb? ( openldap )"
 # See bug #855890 for sys-libs/db slot
 DEPEND="net-mail/mailbase
 	authdaemond? ( || ( net-mail/courier-imap mail-mta/courier ) )
-	berkdb? ( >=sys-libs/db-4.8.30-r1:18.1 )
+	berkdb? ( sys-libs/db:18.1 )
 	gdbm? ( >=sys-libs/gdbm-1.10-r1:= )
 	kerberos? ( >=virtual/krb5-0-r1 )
 	openldap? ( >=net-nds/openldap-2.4.38-r1:= )
