@@ -37,13 +37,15 @@ BDEPEND="
 IDEPEND=">=app-eselect/eselect-pinentry-0.7.2"
 
 DOCS=( AUTHORS ChangeLog NEWS README THANKS TODO )
+PATCHES=(
+	"${FILESDIR}"/files/pinentry-gettext-0.26.patch
+)
 
 src_prepare() {
 	default
 
-	unset FLTK_CONFIG
-
 	eautoreconf
+	elibtoolize
 }
 
 src_configure() {
