@@ -1,0 +1,11 @@
+/configure.ac2022-08-24 10:31:59.000000000 +0000
++++ b/configuregure.ac2025-07-29 05:35:33.991854229 +0000
+@@ -48,6 +48,8 @@
+ AC_CONFIG_AUX_DIR([build-aux])
+   AC_CONFIG_HEADERS([config.h])
+   AC_CONFIG_SRCDIR(pinentry/pinentry.h)
+  +AM_GNU_GETTEXT([external])
+  +AM_GNU_GETTEXT_VERSION(0.24.1)
+   AM_INIT_AUTOMAKE([serial-tests dist-bzip2 no-dist-gzip])
+   
+   AC_USE_SYSTEM_EXTENSIONS
