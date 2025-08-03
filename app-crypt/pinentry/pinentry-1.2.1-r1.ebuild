@@ -31,21 +31,19 @@ RDEPEND="
 	gtk? ( app-crypt/gcr:0[gtk] )
 "
 BDEPEND="
-	>=sys-devel/gettext-0.24.0
+	sys-devel/gettext
 	virtual/pkgconfig
 "
 IDEPEND=">=app-eselect/eselect-pinentry-0.7.2"
 
 DOCS=( AUTHORS ChangeLog NEWS README THANKS TODO )
-PATCHES=(
-	"${FILESDIR}"/pinentry-gettext-0.26.patch
-)
 
 src_prepare() {
 	default
 
+	unset FLTK_CONFIG
+
 	eautoreconf
-	elibtoolize
 }
 
 src_configure() {
