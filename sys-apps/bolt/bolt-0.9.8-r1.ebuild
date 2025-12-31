@@ -15,7 +15,6 @@ IUSE="doc systemd"
 
 DEPEND="
 	>=dev-libs/glib-2.56.0:2
-	dev-util/glib-utils
 	virtual/libudev
 	virtual/udev
 	sys-auth/polkit[introspection]
