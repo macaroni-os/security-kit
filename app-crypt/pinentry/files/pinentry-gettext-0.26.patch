@@ -1,0 +1,11 @@
+--- a/configure.ac	2025-07-30 07:14:45.330251669 -0000
++++ b/configure.ac	2025-07-30 07:15:04.193341794 -0000
+@@ -49,6 +49,8 @@
+ AC_CONFIG_HEADERS([config.h])
+ AC_CONFIG_SRCDIR(pinentry/pinentry.h)
+ AM_INIT_AUTOMAKE([serial-tests dist-bzip2 no-dist-gzip])
++AM_GNU_GETTEXT([external])
++AM_GNU_GETTEXT_VERSION(0.24.1)
+ 
+ AC_USE_SYSTEM_EXTENSIONS
+ 
