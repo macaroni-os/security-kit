@@ -16,7 +16,6 @@ vala? ( introspection )
 "
 BDEPEND="gtk? ( dev-libs/libxml2:2 )
 	dev-util/gdbus-codegen
-	dev-util/glib-utils
 	gtk-doc? ( dev-util/gi-docgen )
 	sys-devel/gettext
 	virtual/pkgconfig
