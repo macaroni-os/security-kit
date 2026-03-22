@@ -2,6 +2,7 @@
 # Autogen by MARK Devkit
 
 EAPI=7
+inherit autotools ltprune
 
 DESCRIPTION="Extended crypt library for descrypt, md5crypt, bcrypt, and others"
 HOMEPAGE="https://github.com/besser82/libxcrypt"
@@ -9,6 +10,11 @@ SRC_URI="https://api.github.com/repos/besser82/libxcrypt/tarball/v4.5.2 -> libxc
 LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="*"
+RDEPEND=">=sys-libs/glibc-2.41
+	
+"
+DEPEND="${RDEPEND}
+"
 
 post_src_unpack() {
 	mv besser82-libxcrypt-* ${S}
