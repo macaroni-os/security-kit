@@ -15,6 +15,7 @@ RDEPEND=">=sys-libs/glibc-2.41
 "
 DEPEND="${RDEPEND}
 "
+BDEPEND="!!<sys-apps/man-pages-6.17"
 
 post_src_unpack() {
 	mv besser82-libxcrypt-* ${S}
