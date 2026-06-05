@@ -20,7 +20,7 @@ BDEPEND="
 	dev-libs/glib
 	dev-libs/gobject-introspection-common
 	dev-libs/libxslt
-	dev-util/glib-utils
+	dev-libs/glib:2
 	sys-devel/gettext
 	virtual/pkgconfig
 	introspection? ( dev-libs/gobject-introspection )
