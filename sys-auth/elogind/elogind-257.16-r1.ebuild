@@ -12,7 +12,7 @@ LICENSE="GPL-2.0"
 SLOT="0"
 KEYWORDS="*"
 PATCHES=(
-	"${FILESDIR}/elogind-257.13-nodocs.patch"
+	"${FILESDIR}/elogind-257.16-nodocs.patch"
 )
 IUSE="+acl audit cgroup-hybrid debug doc +pam +policykit"
 BDEPEND="app-text/docbook-xml-dtd:4.2
