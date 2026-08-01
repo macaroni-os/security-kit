@@ -20,7 +20,7 @@ BDEPEND="
 	dev-libs/glib
 	dev-libs/gobject-introspection-common
 	dev-libs/libxslt
-	dev-util/glib-utils
+	dev-libs/glib:2
 	dev-util/gtk-doc-am
 	dev-util/intltool
 	sys-devel/gettext
